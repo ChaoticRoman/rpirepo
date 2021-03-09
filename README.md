@@ -10,7 +10,7 @@ timedatectl
 
 #### Start-up
 
-Edit your [etc/rc.local]
+Edit your `etc/rc.local`
 
 ## GPIOs
 
@@ -24,7 +24,7 @@ echo 1 > /sys/class/gpio/gpio7/value
 
 ### Buttons
 
-
+https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/
 
 ### LCD
 
@@ -34,4 +34,4 @@ https://www.mbtechworks.com/projects/drive-an-lcd-16x2-display-with-raspberry-pi
 
 https://www.instructables.com/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/
 
-See files in [etc/motion] and [etc/default].
+Set files [/etc/motion](etc/motion) and [/etc/default](etc/default) as exemplified in this repo.
