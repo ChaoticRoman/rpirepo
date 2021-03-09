@@ -1,0 +1,4 @@
+# turn on
+0 5 * * * echo 0 > /sys/class/gpio/gpio25/value
+# turn off
+0 23 * * * echo 1 > /sys/class/gpio/gpio25/value
